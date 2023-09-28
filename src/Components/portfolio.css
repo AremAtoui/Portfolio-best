@@ -1,0 +1,25 @@
+#portfolio {
+  display: flex;
+  margin-left: 55px;
+  margin-top: 150px;
+
+}
+.card:hover{
+
+  border: 2px rgb(20, 8, 131) solid;
+  box-shadow: 7px 7px 7px 7px rgb(87, 126, 158);
+  /* transform: scale(1.5); */
+}
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+  #portfolio {
+    flex-direction: column; /* Cambia la dirección de las tarjetas a vertical */
+    align-items: center; /* Centra las tarjetas horizontalmente */
+    margin-top: 50px; /* Ajusta el margen superior para pantallas más pequeñas */
+  }
+
+  .card {
+    flex: 1 0 100%; /* Las tarjetas ocuparán todo el ancho disponible */
+    max-width: 300px; /* Limita el ancho máximo de las tarjetas */
+  }
+}

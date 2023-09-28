@@ -1,0 +1,180 @@
+.App{
+   
+    background-color: black;
+    height: 748px;
+}
+.Name {
+    border-radius: 50%;
+    max-width: 320px;
+    left: calc(50vw - 360px);
+    top: calc(50vh - 160px);
+    border: 10px solid rgba(255, 255, 255, .1);
+    margin-top: 60px;
+    margin-left: 70px;
+}
+.main-text {
+    width: 490px;
+    padding: 5px;
+    margin-top: 60px;
+}
+.Big{
+    display: flex;
+    width: 703px;
+}
+.main-text h1 span {
+    color: #72b626;
+    margin-left: 4px;
+  }
+  /* p{
+    color: antiquewhite;
+  } */
+  a.btn l{
+    background-color: #72b626;
+
+  }
+ 
+  /* Styles for screens up to 703px */
+@media (max-width: 703px) {
+    .Big {
+      flex-direction: column;
+      align-items: center;
+      width: 94%;
+    }
+    .Name {
+      left: 0;
+      top: 0;
+      margin: 40px auto;
+    }
+    .main-text {
+      width: 100%;
+    }
+  }
+  
+  /* Styles for screens up to 490px */
+  @media (max-width: 490px) {
+    .main-text {
+      width: 100%;
+      margin-top: -55px;
+    }
+  }
+  
+  /* Additional styles for various screen sizes as needed */
+  /* Add more media queries here as necessary */
+  
+  /* General styles for all links with class "btn" within link-portfolio-one */
+  .btn {
+    background-color: #72b626;
+    color: white;
+
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    width: 170px;
+
+  }
+  
+  a.btn.link-portfolio-one:hover {
+    background-color: #5aa61c;
+    margin:10;
+  }
+  .btn i {
+    padding-right: 11px;
+  }
+  .btn-secondary {
+    margin: 4px;
+}
+  
+  p {
+    color: black;
+  }
+  
+  .main-text h1 span {
+    color: #72b626;
+    margin-left: 4px;
+  }
+  #switcher {
+    background: #fff;
+    position: fixed;
+    display: none;
+    top: 200px;
+    right: 0;
+    direction: ltr;
+    z-index: 111111;
+    width: 220px;
+    margin-right: 0;
+    border-radius: 0 5px 5px 0;
+    font-family: 'Open Sans', Arial, sans-serif;
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(51, 51, 51, 0.2);
+    box-shadow: 0px 0px 4px 0px rgba(51, 51, 51, 0.2);
+  }
+  #switcher .content-switcher {
+    padding: 16px;
+    overflow: hidden;
+  }
+  #switcher h4 {
+    padding: 5px 0;
+    border-bottom: #ccc 1px solid;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+    margin: 0 0 10px 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  #switcher ul {
+    padding: 0!important;
+    margin: 0!important;
+    list-style-type: none;
+  }
+  #switcher ul li {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: 12px;
+    display: inline-block;
+  }
+  #switcher a.color {
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 4px 2px;
+    width: 30px;
+    height: 30px;
+  }
+  #switcher .purchase {
+    background-color: #82b440;
+    text-transform: capitalize;
+    font-size: 16px;
+    border-radius: 4px;
+    font-weight: 700;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #showSwitcher {
+    z-index: 111111;
+    margin-left: 0px;
+    position: fixed;
+    right: 0;
+    top: 200px;
+    background: #fff;
+    border: #ccc 1px solid;
+    box-shadow: #ccc 0 0 2px;
+    border-right: 0;
+    font-size: 18px;
+    display: block;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 4px;
+    padding: 10px 16px 10px 14px;
+    cursor: pointer;
+  }
+  #showSwitcher i {
+    font-size: 25px;
+    color: #222;
+  }
+  
+  
+  
+  
+  
+  
+  
